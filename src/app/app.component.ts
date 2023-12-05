@@ -8,7 +8,7 @@ import { DaterangepickerConfig } from 'projects/ng2-daterangepicker/src/public-a
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular11';
+  title = 'angular16';
 
   public chosenDate: any = {
     start: moment().subtract(12, 'month'),
