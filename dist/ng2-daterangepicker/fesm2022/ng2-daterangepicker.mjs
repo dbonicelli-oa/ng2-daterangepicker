@@ -11,12 +11,12 @@ class DaterangepickerConfig {
     static ɵfac = function DaterangepickerConfig_Factory(t) { return new (t || DaterangepickerConfig)(); };
     static ɵprov = /*@__PURE__*/ i0.ɵɵdefineInjectable({ token: DaterangepickerConfig, factory: DaterangepickerConfig.ɵfac, providedIn: 'root' });
 }
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(DaterangepickerConfig, [{
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(DaterangepickerConfig, [{
         type: Injectable,
         args: [{
                 providedIn: 'root'
             }]
-    }], function () { return []; }, null); })();
+    }], () => [], null); })();
 
 class DaterangepickerComponent {
     input;
@@ -117,12 +117,12 @@ class DaterangepickerComponent {
     static ɵfac = function DaterangepickerComponent_Factory(t) { return new (t || DaterangepickerComponent)(i0.ɵɵdirectiveInject(i0.ElementRef), i0.ɵɵdirectiveInject(DaterangepickerConfig), i0.ɵɵdirectiveInject(i0.KeyValueDiffers)); };
     static ɵdir = /*@__PURE__*/ i0.ɵɵdefineDirective({ type: DaterangepickerComponent, selectors: [["", "daterangepicker", ""]], inputs: { options: "options" }, outputs: { selected: "selected", cancelDaterangepicker: "cancelDaterangepicker", applyDaterangepicker: "applyDaterangepicker", hideCalendarDaterangepicker: "hideCalendarDaterangepicker", showCalendarDaterangepicker: "showCalendarDaterangepicker", hideDaterangepicker: "hideDaterangepicker", showDaterangepicker: "showDaterangepicker" } });
 }
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(DaterangepickerComponent, [{
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(DaterangepickerComponent, [{
         type: Directive,
         args: [{
                 selector: '[daterangepicker]'
             }]
-    }], function () { return [{ type: i0.ElementRef }, { type: DaterangepickerConfig }, { type: i0.KeyValueDiffers }]; }, { options: [{
+    }], () => [{ type: i0.ElementRef }, { type: DaterangepickerConfig }, { type: i0.KeyValueDiffers }], { options: [{
             type: Input
         }], selected: [{
             type: Output
@@ -145,7 +145,7 @@ class Daterangepicker {
     static ɵmod = /*@__PURE__*/ i0.ɵɵdefineNgModule({ type: Daterangepicker });
     static ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({});
 }
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(Daterangepicker, [{
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(Daterangepicker, [{
         type: NgModule,
         args: [{
                 declarations: [DaterangepickerComponent],
