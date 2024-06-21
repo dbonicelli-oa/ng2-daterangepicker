@@ -14,8 +14,8 @@
     "daterangepicker": "^3.0.5"
   },
   "peerDependencies": {
-    "@angular/common": "17.3.4",
-    "@angular/core": "17.3.4",
+    "@angular/common": "18.0.2",
+    "@angular/core": "18.0.2",
     "tslib": "^2.6.2",
     "jquery": "^3.5.0",
     "@types/jquery": "^3.3.32"
